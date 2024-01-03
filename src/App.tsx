@@ -1,7 +1,6 @@
 import AppRouter from "./routes/Router";
+import "highlight.js/styles/github.css";
 
-function App() {
+export default function App() {
   return <AppRouter />;
 }
-
-export default App;

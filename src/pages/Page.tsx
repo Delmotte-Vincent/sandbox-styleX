@@ -7,11 +7,11 @@ type PageProps = {
 
 const styles = stylex.create({
   page: {
-    backgroundColor: "white",
     flexGrow: 1,
     height: "100%",
-    borderRadius: "8px",
-    padding: "8px",
+    display: "flex",
+    flexDirection: "column",
+    gap: "32px",
   },
 });
 
