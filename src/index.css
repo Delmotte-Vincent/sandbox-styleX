@@ -12,3 +12,7 @@ body,
   box-sizing: border-box;
   font-family: "Varela Round", monospace, sans-serif;
 }
+
+p {
+  line-height: 1.4;
+}

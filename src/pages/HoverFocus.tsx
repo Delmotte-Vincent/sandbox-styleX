@@ -35,7 +35,12 @@ export default function HoverFocus() {
   return (
     <>
       <Description>
-        <div>Exemple description</div>
+        <p>
+          This exemple show you how to use the css selector in styleX like focus
+          or hover. When you declare a property, you can just give a value or
+          you can pass an object with the default value and the state value like
+          hover or focus.
+        </p>
       </Description>
       <Exemple>
         <button {...stylex.props(styles.base)}>Lorem ipsum</button>

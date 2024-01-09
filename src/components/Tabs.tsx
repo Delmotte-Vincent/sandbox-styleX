@@ -1,6 +1,7 @@
 import * as stylex from "@stylexjs/stylex";
 import { useState } from "react";
 import Code from "./Code";
+import { colors } from "../styles/tokens.stylex";
 
 type Tab = {
   title: string;
@@ -24,7 +25,8 @@ const styles = stylex.create({
       "0px 0.8px 2px rgba(0,0,0,.032),0px 2.7px 6.7px rgba(0,0,0,.048),0px 12px 30px rgba(0,0,0,.08)",
   },
   header: {
-    fontSize: 16,
+    fontSize: "14px",
+    color: colors.primaryText,
     display: "flex",
     gap: "16px",
     borderBottom: "1px solid #F0F3F4",
@@ -39,7 +41,7 @@ const styles = stylex.create({
     },
   },
   active: {
-    borderBottom: "1px solid red",
+    borderBottom: `1px solid ${colors.primaryText}`,
   },
 });
 

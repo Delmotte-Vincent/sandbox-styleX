@@ -5,6 +5,7 @@ const DARK = "@media (prefers-color-scheme: dark)";
 export const colors = stylex.defineVars({
   text: "black",
   background: "#FDFFFE",
+  primaryText: "#108027",
 });
 
 export const spacing = stylex.defineVars({

@@ -37,7 +37,7 @@ const styles = stylex.create({
     },
   },
   activate: {
-    color: "#11982D",
+    color: colors.primaryText,
     backgroundColor: "#F0F3F4",
     fontWeight: "bold",
   },

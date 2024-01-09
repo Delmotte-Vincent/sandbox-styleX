@@ -41,7 +41,11 @@ export default function Reset() {
   return (
     <>
       <Description>
-        <div>Exemple description</div>
+        <p>
+          This exemple show you how to reset a property. This is quick simple,
+          to reset a property, you have to nullish it and apply the class inside
+          the props function.
+        </p>
       </Description>
       <Exemple>
         <button {...stylex.props(styles.base, styles.reset)}>

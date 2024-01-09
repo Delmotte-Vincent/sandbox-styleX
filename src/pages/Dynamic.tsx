@@ -28,7 +28,12 @@ export default function Dynamic() {
   return (
     <>
       <Description>
-        <div>Exemple description</div>
+        <p>
+          This exemple show you how to make a dynamic css. This exemple take a
+          number as input and apply it to fontSize. You just have to declare an
+          arrow function and return the object that represent the css
+          properties.
+        </p>
       </Description>
       <Exemple>
         <input

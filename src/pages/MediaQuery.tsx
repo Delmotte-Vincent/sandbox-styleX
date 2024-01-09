@@ -33,7 +33,11 @@ export default function MediaQuery() {
   return (
     <>
       <Description>
-        <div>Exemple description</div>
+        <p>
+          This exemple show you how to use media query in styleX. You use media
+          query the same way you declare selector. "@media (media query)" will
+          apply the property when the media query is correct.
+        </p>
       </Description>
       <Exemple>
         <button {...stylex.props(styles.base)}>Lorem ipsum</button>
