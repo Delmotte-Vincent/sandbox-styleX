@@ -19,6 +19,9 @@ const styles = stylex.create({
   tabs: {
     backgroundColor: "white",
     borderRadius: "8px",
+    overflow: "hidden",
+    boxShadow:
+      "0px 0.8px 2px rgba(0,0,0,.032),0px 2.7px 6.7px rgba(0,0,0,.048),0px 12px 30px rgba(0,0,0,.08)",
   },
   header: {
     fontSize: 16,
@@ -49,6 +52,7 @@ export default function Tabs({ tabs }: TabsProps) {
         <ul {...stylex.props(styles.header)}>
           {tabs.map((tab, i) => (
             <li
+              key={i}
               {...stylex.props(i === activeTab && styles.active)}
               onClick={() => setActiveTab(i)}
             >

@@ -1,19 +1,21 @@
 import * as stylex from "@stylexjs/stylex";
 import { Outlet, Link, useLocation } from "react-router-dom";
+import { colors } from "../styles/tokens.stylex";
 
 const styles = stylex.create({
   layout: {
     display: "flex",
-    gap: "16px",
-    backgroundColor: "#F0F3F4",
-    padding: "8px",
+    gap: "42px",
+    backgroundColor: colors.background,
+    fontSize: "16px",
     height: "100vh",
   },
   nav: {
-    width: "150px",
+    width: "250px",
+    minWidth: "250px",
     padding: "8px",
-    borderRadius: "8px",
-    backgroundColor: "white",
+    backgroundColor: colors.background,
+    borderRight: "1px solid #EEEEEE",
   },
   list: {
     listStyle: "none",
@@ -25,14 +27,17 @@ const styles = stylex.create({
   },
   link: {
     textDecoration: "none",
-    color: "#ABB2B9",
+    color: "#707070",
     width: "100%",
     display: "inline-block",
     padding: "8px",
     borderRadius: "4px",
+    backgroundColor: {
+      ":hover": "#F0F3F4",
+    },
   },
   activate: {
-    color: "#17202A",
+    color: "#11982D",
     backgroundColor: "#F0F3F4",
     fontWeight: "bold",
   },

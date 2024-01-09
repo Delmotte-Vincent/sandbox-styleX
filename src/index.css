@@ -10,5 +10,5 @@ body,
 *::after,
 *::before {
   box-sizing: border-box;
-  font-family: monospace;
+  font-family: "Varela Round", monospace, sans-serif;
 }

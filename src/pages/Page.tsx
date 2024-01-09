@@ -12,6 +12,7 @@ const styles = stylex.create({
     display: "flex",
     flexDirection: "column",
     gap: "32px",
+    padding: "8px 70px 8px 70px",
   },
 });
 
