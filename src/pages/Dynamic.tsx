@@ -23,7 +23,7 @@ const styles = stylex.create({
 });
 
 export default function Dynamic() {
-  const [size, setSize] = useState(14);
+  const [size, setSize] = useState(18);
 
   return (
     <>

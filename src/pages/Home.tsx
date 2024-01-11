@@ -1,3 +1,8 @@
 export default function Home() {
-  return <div>Welcome to StyleX sandbox</div>;
+  return (
+    <p>
+      Welcome to StyleX sandbox. This sandbox aim to show you the use case of
+      the new css as js library developped by Meta.
+    </p>
+  );
 }

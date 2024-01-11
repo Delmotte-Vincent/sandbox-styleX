@@ -4,4 +4,5 @@ import { colors } from "./tokens.stylex";
 export const dracula = stylex.createTheme(colors, {
   text: "purple",
   background: "#DCDCDC",
+  primaryText: "#108027",
 });

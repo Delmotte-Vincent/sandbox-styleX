@@ -61,7 +61,23 @@ export default function Theme() {
   return (
     <>
       <Description>
-        <div>Exemple description</div>
+        <p>
+          This exemple show you how to create and apply css variables and
+          themes. StyleX makes creating css variables and themes easy.
+        </p>
+
+        <p>
+          Css variables have to follow one rule : you need to declare them
+          inside a ".stylex.ts" file and don't export them as default. After
+          that you can import and use these variables inside "create" or
+          "createTheme" everywhere you want to.
+        </p>
+
+        <p>
+          For the theme, you can create theme everywhere you want to. When you
+          apply a theme to a styleX prop, all property that is in common with
+          the theme will be override by the theme.
+        </p>
       </Description>
       <Exemple>
         <div {...stylex.props(dracula, styles.container)}>Lorem ipsum</div>

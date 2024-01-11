@@ -33,7 +33,11 @@ export default function Override() {
   return (
     <>
       <Description>
-        <div>Exemple description</div>
+        <p>
+          This exemple show you how to override a css property. StyleX works
+          with the rule : "last apply wins" (i.e you just have to apply a
+          different value to the same property to override it).
+        </p>
       </Description>
       <Exemple>
         <div {...stylex.props(styles.base, styles.override)}>Lorem ipsum</div>
